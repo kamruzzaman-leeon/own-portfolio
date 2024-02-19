@@ -1,10 +1,16 @@
-import React from 'react';
+
+import About from './About';
+import Banner from './Banner';
+import Portfolio from './Portfolio';
+import Skill from './Skill';
 
 const Home = () => {
     return (
-        <div className='flex gap-5 p-10 w-full border border-red-300'>
-           <div>1</div>
-           <div>2</div>
+        <div className='flex flex-col gap-5 mx-5'>
+           <Banner></Banner>
+           <About></About>
+           <Skill></Skill>
+           <Portfolio></Portfolio>
         </div>
     );
 };
